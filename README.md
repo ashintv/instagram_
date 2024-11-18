@@ -23,6 +23,17 @@ Example:
 This project is designed to help users download Instagram profiles, posts, and media content using the **Instaloader** library. It allows you to download images and videos from Instagram profiles (public) and the automation for selecting a random post and posting in it your profile
 
 ## Installation
+    # Clone the repository
+        git clone https://github.com/yourusername/project-name.git
+        cd project-name
+
+    # Create a virtual environment (optional but recommended)
+        python -m venv venv
+        source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+    #Install the required dependencies
+    pip install -r requirements.txt
+
     
 ### Prerequisites
 
