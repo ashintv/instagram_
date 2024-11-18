@@ -4,7 +4,7 @@ import random
 import instaloader
 for user_id in profiles_ids:
     l = instaloader.Instaloader()
-   # l.download_profile(user_id,profile_pic=False,target='Downloads')
+    l.download_profile(user_id,profile_pic=False)
 for user_id in profiles_ids:
     file_path = f'Downloads/{user_id}/id'
     if os.path.isfile(file_path):

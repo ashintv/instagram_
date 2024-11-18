@@ -28,15 +28,19 @@ print(caption)
 
 from instabot import Bot
 bot = Bot(save_logfile= False,)
-bot.login(username='trial469',password='Trial2024',use_cookie=False)
+user = input('Enter user name : ')
+passw = input('Enter instagram pass : ')
+bot.login(username=user,password=passw,use_cookie=False)
 
 try:
     
     if random_file.endswith('.mp4'):
         print(f'{directory_path}/{random_file}')
         bot.upload_video(video=f'{directory_path}/{random_file}',caption=caption)
+        
     elif random_file.endswith('.jpg'):
         print(f'{directory_path}/{random_file}')
         bot.upload_photo(video=f'{directory_path}/{random_file}',caption=caption)
+
 except:
     print(Exception)
